@@ -1,0 +1,19 @@
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #42570C;
+    color: #FFFFFF;
+
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+   
+    
+    font: 10px;
+}

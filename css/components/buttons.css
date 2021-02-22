@@ -1,0 +1,57 @@
+.button-send{
+    background: #C6DE6F;
+    color: #FFF;
+    font-weight: bold;
+
+}
+
+.button-send:hover{
+    color: #6E5596;
+}
+
+.button-play{
+    font-weight: bolder;
+    color: #FFF;
+    background: #C6DE6F;
+}
+
+.cancel{
+    background: #6E5596;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.cancel:hover{
+    color: #C6DE6F;
+}
+
+
+.login{
+    height: 40px;
+    width: 80px;
+    background: #6E5596;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.btn-cancel{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.btn-cancel:hover{
+    color: #C6DE6F;
+}
+
+.button-play{
+    background: #6E5596;
+    color: #FFF;
+    font-weight: bold;
+
+}
+
+.button-play:hover{
+    color: #C6DE6F;
+}

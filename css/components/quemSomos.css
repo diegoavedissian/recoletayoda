@@ -1,0 +1,18 @@
+main{
+    margin-top: 6rem;
+    color: dimgray;
+}
+
+.title{
+    color: #3A225E;
+    font-size: 1.8rem;
+}
+
+.subtitle{
+    color: #3A225E;
+    font-size: 1.5rem;
+}
+
+strong{
+    color: #3A225E;
+}

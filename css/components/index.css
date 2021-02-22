@@ -1,0 +1,31 @@
+html, body{
+    min-height: 100%;
+}
+.title{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+
+    font-size: 2.5rem;
+}
+.description{
+    margin-left: 50px;
+    margin-bottom: 50px;   
+}
+
+.subtitle{
+    font-size: 1.5rem;
+}
+
+.cover-play{
+    
+    width: 100%;
+}
+
+.jumbotron{
+    color: dimgray;
+}
+
+.display-4{
+    color: #3A225E;
+}

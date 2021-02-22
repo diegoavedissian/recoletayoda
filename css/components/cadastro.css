@@ -1,0 +1,23 @@
+.container-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top:100px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.form-label{
+    font-weight: bold;
+}
+
+.form-control{
+    border-color: #C6DE6F;
+}

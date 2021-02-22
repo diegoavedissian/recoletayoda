@@ -1,0 +1,15 @@
+.cards{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card{
+    max-width: 18rem;
+}
+
+.card{
+    border-color: #C6DE6F;
+}
+
+.card-img-top{
+   object-fit: cover;
+}

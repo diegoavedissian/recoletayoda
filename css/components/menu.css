@@ -1,0 +1,13 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+
+.img-logo{
+    width: 6rem;
+    height: 3.5rem;
+}
