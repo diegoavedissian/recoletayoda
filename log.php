@@ -13,11 +13,15 @@
   $resultado = mysqli_query($conn, $query);
   $linha = mysqli_num_rows($resultado);
   if($linha == 1){
-    $_SESSION['email'] = $email;
+    $_SESSION['id_usuario'] = $id_usuario;
+    $_SESSION['nome'] = $nome;
+    $_SESSION['email'] = $email;    
+    $_SESSION['telefone'] = $telefone;
+    $_SESSION['senha'] = $senha;
     header('Location: jogos.php');
     exit();
   } else {
     $_SESSION['naologado'] = true;
-    header('Location: login.php');
+    echo"<script>alert('Login inválido]!')</script>";    
     exit();
   }

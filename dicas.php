@@ -31,35 +31,44 @@
         <p>Aqui você encontrará dicas de como colaborar com o meio ambiente</p>
         <figcaption class="cards d-flex justify-content-around bg-light">
 
-            <article class="card">
-                <img class="card-img-top" src="assets/img/reduzir.png">
-                <div class="card-body">
-                    <h5 class="card-title">Resíduos</h5>
-                    <p class="card-text">
-                        Encontre maneiras de descartar seus resíduos de maneira consciente</p>
-                    <a href="" class="btn button-play">Acessar</a>
-            </article>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                <article class="card">
+                    <img class="card-img-top" src="assets/img/reduzir.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Resíduos</h5>
+                        <p class="card-text">
+                            Encontre maneiras de descartar seus resíduos de maneira consciente</p>
+                        <a href="" class="btn button-play">Acessar</a>
+                </article>
+            </div>
 
-            <article class="card">
-                <img class="card-img-top" src="assets/img/reciclagem.png" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">Coleta Seletiva</h5>
-                    <p class="card-text">Encontre pontos de coleta seletiva, próximos a sua residência.</p>
-                    <a href="" class="btn button-play">Acessar</a>
-                </div>
-            </article>
+            <div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                <article class="card">
+                    <img class="card-img-top" src="assets/img/reciclagem.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Coleta Seletiva</h5>
+                        <p class="card-text">Encontre pontos de coleta seletiva, próximos a sua residência.</p>
+                        <a href="" class="btn button-play">Acessar</a>
+                    </div>
+                </article>
+            </div>
 
-            <article class="card">
-                <img class="card-img-top" src="assets/img/aguaDicas.png" alt="Agua">
-                <div class="card-body">
-                    <h5 class="card-title">Economia de Agua</h5>
-                    <p class="card-text">Escovar os dentes mantendo a torneira fechada ajuda economizar até 85% de água</p>
-                    <a href="" class="btn button-play">Acessar</a>
-                </div>
-            </article>
+            <div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                <article class="card">
+                    <img class="card-img-top" src="assets/img/aguaDicas.png" alt="Agua">
+                    <div class="card-body">
+                        <h5 class="card-title">Economia de Agua</h5>
+                        <p class="card-text">Escovar os dentes mantendo a torneira fechada ajuda economizar até 85% de água</p>
+                        <a href="" class="btn button-play">Acessar</a>
+                    </div>
+                </article>
+            </div>
+        </div>
         </figcaption>
     </div>
 
+    <br><br>
     <?php
     require_once('footer.html');
     ?>
