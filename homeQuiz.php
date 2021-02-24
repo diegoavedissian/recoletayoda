@@ -26,7 +26,11 @@
             <a href="highscores.php" id="highscore-btn" class="btn cancel">
                 High Score
             </a>
+            <div class="my-4 pb-5 d-flex justify-content-end">
+            <a class="btn cancel p-2" href="jogos.php" role="button">Voltar</a>
+            </div>
         </div>
+        
     </div>
 
     <?php

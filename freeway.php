@@ -22,16 +22,17 @@
     ?>
     </header>
 
-    <div class="container"> 
-    <h2>Freeway</h2>
-    <p>Leve o residuo até a lixeira, e ganhe pontos!</p>
+    <div class="container my-3"> 
+        <h2>Freeway</h2>
+        <p>Leve o residuo até a lixeira, e ganhe pontos!</p>
+        <div class="freeway">
+            <iframe src="https://editor.p5js.org/robertaassun/embed/_aLh8_mVK"></iframe>
+        </div>
+        <div class="mb-4 mr-4 px-4 py-4">
+            <a class="btn cancel p-2" href="jogos.php" role="button">Voltar</a>
+        </div>
+        <br><br>
     </div>
-    
-
-    <div class="freeway">
-        <iframe src="https://editor.p5js.org/robertaassun/embed/_aLh8_mVK"></iframe>
-    </div>
-
 
     <?php
     require_once('footer.html');

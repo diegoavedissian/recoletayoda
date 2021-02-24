@@ -1,6 +1,9 @@
 <?php
 session_start();
 if(!$_SESSION['email']){
-    header('Location: index.php');
+    echo "<script>
+            alert('Para jogar faça o login!');
+            location.href='login.php'
+        </script>";
     exit();
 }

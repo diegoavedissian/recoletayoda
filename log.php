@@ -22,6 +22,6 @@
     exit();
   } else {
     $_SESSION['naologado'] = true;
-    echo"<script>alert('Login inválido]!')</script>";    
+    echo"<script>alert('Login inválido!'); location.href='login.php'</script>";    
     exit();
   }

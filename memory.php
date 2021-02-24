@@ -22,64 +22,66 @@
     require_once('modal.html');
     ?>
 
-    <section class="memory-game">
-        <div class="memory-card" data-framework="alimento">
-            <img class="front-face" src="assets/img/food.png" alt="alimento" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
-        <div class="memory-card" data-framework="alimento">
-            <img class="front-face" src="assets/img/food.png" alt="alimento" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
+    <div class="container mt-1 mb-5">
+        <section class="memory-game">
+            <div class="memory-card" data-framework="alimento">
+                <img class="front-face" src="assets/img/food.png" alt="alimento" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
+            <div class="memory-card" data-framework="alimento">
+                <img class="front-face" src="assets/img/food.png" alt="alimento" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
 
-        <div class="memory-card" data-framework="bicicleta">
-            <img class="front-face" src="assets/img/bike2.png" alt="bicicleta" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
-        <div class="memory-card" data-framework="bicicleta">
-            <img class="front-face" src="assets/img/bike2.png" alt="bicicleta" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
+            <div class="memory-card" data-framework="bicicleta">
+                <img class="front-face" src="assets/img/bike2.png" alt="bicicleta" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
+            <div class="memory-card" data-framework="bicicleta">
+                <img class="front-face" src="assets/img/bike2.png" alt="bicicleta" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
 
-        <div class="memory-card" data-framework="caminhar">
-            <img class="front-face" src="assets/img/walk.png" alt="caminhar" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
-        <div class="memory-card" data-framework="caminhar">
-            <img class="front-face" src="assets/img/walk.png" alt="caminhar" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
+            <div class="memory-card" data-framework="caminhar">
+                <img class="front-face" src="assets/img/walk.png" alt="caminhar" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
+            <div class="memory-card" data-framework="caminhar">
+                <img class="front-face" src="assets/img/walk.png" alt="caminhar" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
 
-        <div class="memory-card" data-framework="exercicio">
-            <img class="front-face" src="assets/img/exercice.png" alt="exercicio" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
-        <div class="memory-card" data-framework="exercicio">
-            <img class="front-face" src="assets/img/exercice.png" alt="exercicio" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
+            <div class="memory-card" data-framework="exercicio">
+                <img class="front-face" src="assets/img/exercice.png" alt="exercicio" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
+            <div class="memory-card" data-framework="exercicio">
+                <img class="front-face" src="assets/img/exercice.png" alt="exercicio" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
 
-        <div class="memory-card" data-framework="lavar">
-            <img class="front-face" src="assets/img/wash.png" alt="lavar" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
-        <div class="memory-card" data-framework="lavar">
-            <img class="front-face" src="assets/img/wash.png" alt="lavar" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
+            <div class="memory-card" data-framework="lavar">
+                <img class="front-face" src="assets/img/wash.png" alt="lavar" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
+            <div class="memory-card" data-framework="lavar">
+                <img class="front-face" src="assets/img/wash.png" alt="lavar" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
 
-        <div class="memory-card" data-framework="recolha">
-            <img class="front-face" src="assets/img/eco.png" alt="recolha" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
-        <div class="memory-card" data-framework="recolha">
-            <img class="front-face" src="assets/img/eco.png" alt="recolha" />
-            <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
-        </div>
-    </section>
+            <div class="memory-card" data-framework="recolha">
+                <img class="front-face" src="assets/img/eco.png" alt="recolha" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
+            <div class="memory-card" data-framework="recolha">
+                <img class="front-face" src="assets/img/eco.png" alt="recolha" />
+                <img class="back-face" src="assets/img/backMemory.png" alt="recoleta" />
+            </div>
+        </section>
 
-    <div class="d-flex justify-content-end">
-        <a class="btn cancel p-2" href="jogos.php" role="button">Voltar</a>
+        <div class="pb-5 d-flex justify-content-end">
+            <a class="btn cancel p-2" href="jogos.php" role="button">Voltar</a>
+        </div>
     </div>
 
     <?php
