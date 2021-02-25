@@ -29,7 +29,7 @@ session_start();
   require_once('modal.html');
   ?>
   <br><br><br><br>
-  <div class="container my-4">
+  <div class="row">
     <form method="POST" action="log.php" class="container box">
 
       <?php
@@ -43,16 +43,16 @@ session_start();
       unset($_SESSION['naologado']);
       ?>
   
-      <div class="my-2">
+      <div class="col-sm-6 col-md-4 col-lg-3">
         <label for="email" class="form-label">Email</label>
         <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp">
       </div>
-      <div class="my-2">
+      <div class="col-sm-6 col-md-4 col-lg-3">
         <label for="senha" class="form-label">Senha</label>
         <input type="password" class="form-control" name="senha" id="senha">
       </div>
       <button type="submit" class="btn cancel my-3">Entrar</button>
-      <a href="cadastro.php">Ainda não tem cadastro? Clique aqui!</a>
+      <a href="cadastro.php" class="col-sm-6 col-md-4 col-lg-3">Ainda não tem cadastro? Clique aqui!</a>
     </form>
   </div>
 
