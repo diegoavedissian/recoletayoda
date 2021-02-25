@@ -19,7 +19,7 @@
 <body>
     <?php
     require_once('menu.html');
-    require_once('modal.html');
+    require_once('modal.php');
     ?>
 
     <div class="container mt-1 mb-5">

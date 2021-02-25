@@ -26,7 +26,7 @@ session_start();
 
   <?php
   require_once('menu.html');
-  require_once('modal.html');
+  require_once('modal.php');
   ?>
   <br><br><br><br>
   <div class="row">

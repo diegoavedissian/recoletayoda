@@ -12,7 +12,7 @@
 
     <?php
     require_once('menu.html');
-    require_once('modal.html');
+    require_once('modal.php');
     require_once('./backend/connection.php');
     ?>
 

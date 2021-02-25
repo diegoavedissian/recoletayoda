@@ -19,9 +19,9 @@
 <body>
   <?php
   require_once('menu.html');
-  require_once('modal.html');
+  require_once('modal.php');
   ?>
-
+  
   <main>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <ol class="carousel-indicators">
@@ -76,7 +76,7 @@
       </p>
     </div>
   </main>
-
+  <br><br>
   <?php
   require_once('footer.html');
   ?>
