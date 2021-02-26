@@ -14,8 +14,7 @@
 <body>
     <header>
         <?php
-        require_once('menu.html');
-        require_once('modal.php');
+        include('menu.html');
         ?>
     </header>
 
@@ -51,11 +50,23 @@
     </main>
 
     <?php
-    require_once('footer.html');
+    include('modal.html');
+    ?>
+
+    <?php
+    include('footer.html');
     ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<<<<<<< HEAD
 
 </body>
 
 </html>
+=======
+    
+
+</body>
+
+</html>
+>>>>>>> 16b716421cc7dcf1e527ca7e6f80ae7127040ee0

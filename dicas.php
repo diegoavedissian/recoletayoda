@@ -15,8 +15,7 @@
 <body>
     <header>
         <?php
-        require_once('menu.html');
-        require_once('modal.php');
+        include('menu.html');
         ?>
     </header>
 
@@ -27,6 +26,7 @@
         <p>Aqui você encontrará dicas de como colaborar com o meio ambiente</p>
         <figcaption class="cards d-flex justify-content-around bg-light">
 
+<<<<<<< HEAD
         <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-3 my-3">
                 <article class="card">
@@ -61,12 +61,43 @@
                 </article>
             </div>
         </div>
+=======
+            <article class="card">
+                <img class="card-img-top" src="assets/img/reduzir.png">
+                <div class="card-body">
+                    <h5 class="card-title">Resíduos</h5>
+                    <p class="card-text">
+                        Encontre maneiras de descartar seus resíduos de maneira consciente</p>
+                    <a href="residuos.php" class="btn button-play">Acessar</a>
+            </article>
+
+            <article class="card">
+                <img class="card-img-top" src="assets/img/reciclagem.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Coleta Seletiva</h5>
+                    <p class="card-text">Encontre pontos de coleta seletiva, próximos a sua residência.</p>
+                    <a href="coletaSeletiva.php" class="btn button-play">Acessar</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="card-img-top" src="assets/img/aguaDicas.png" alt="Agua">
+                <div class="card-body">
+                    <h5 class="card-title">Economia de Agua</h5>
+                    <p class="card-text">Escovar os dentes mantendo a torneira fechada ajuda economizar até 85% de água</p>
+                    <a href="economia.php" class="btn button-play">Acessar</a>
+                </div>
+            </article>
+>>>>>>> 16b716421cc7dcf1e527ca7e6f80ae7127040ee0
         </figcaption>
     </div>
 
-    <br><br>
     <?php
-    require_once('footer.html');
+    include('modal.html');
+    ?>
+
+    <?php
+    include('footer.html');
     ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
