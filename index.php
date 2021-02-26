@@ -28,25 +28,24 @@
         <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
         <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
         <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./assets/img/img13.jpeg" class="d-inlineblock w-100 img-carrosel" alt="Comunidade Hatsuta">
+          <img src="./assets/img/cria.jpg" class="d-inlineblock w-100 img-carrosel" alt="Comunidade Hatsuta">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Comunidade Hatsuta</h5>
-            <p>Antiga habitação nesta invasão.</p>
+            <!--<h5>Comunidade Hatsuta</h5>
+            <p>Antiga habitação nesta invasão.</p>-->
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./assets/img/img16.jpeg" class="d-block w-100 img-carrosel" alt="Condomínio Residencial Lavras">
+          <img src="./assets/img//meio.jpg" class="d-block w-100 img-carrosel" alt="Condomínio Residencial Lavras">
           <div class="carousel-caption d-none d-md-block dark">
-            <h5>Condomínio Residencial Lavras</h5>
-            <p>Antes da imersão do Recoleta.</p>
+            <!--<h5>Condomínio Residencial Lavras</h5>
+            <p>Antes da imersão do Recoleta.</p>-->
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./assets/img/condominio.PNG" class="d-block w-100 img-carrosel" alt="Condomínio Residencial Lavras">
+          <img src="./assets/img/play.jpeg" class="d-block w-100 img-carrosel" alt="Condomínio Residencial Lavras">
           <div class="carousel-caption d-none d-md-block">
             <h5>Condomínio Residencial Lavras</h5>
             <p>O futuro dependerá daquilo que fazemos no presente.</p>
@@ -55,7 +54,6 @@
       </div>
       <div class="container mt-4">
       </div>
-
       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>

@@ -6,13 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-    
     <link rel="stylesheet" href="css/components/cards.css">
     <link rel="stylesheet" href="css/components/buttons.css">
     <link rel="stylesheet" href="css/components/jogos.css">
-
-    
     <title>Dicas | Recoleta</title>
 </head>
 
@@ -39,7 +35,7 @@
                         <h5 class="card-title">Resíduos</h5>
                         <p class="card-text">
                             Encontre maneiras de descartar seus resíduos de maneira consciente</p>
-                        <a href="" class="btn button-play">Acessar</a>
+                        <a href="residuos.php" class="btn button-play">Acessar</a>
                 </article>
             </div>
 
@@ -49,7 +45,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Coleta Seletiva</h5>
                         <p class="card-text">Encontre pontos de coleta seletiva, próximos a sua residência.</p>
-                        <a href="" class="btn button-play">Acessar</a>
+                        <a href="coletaSeletiva.php" class="btn button-play">Acessar</a>
                     </div>
                 </article>
             </div>
@@ -60,7 +56,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Economia de Agua</h5>
                         <p class="card-text">Escovar os dentes mantendo a torneira fechada ajuda economizar até 85% de água</p>
-                        <a href="" class="btn button-play">Acessar</a>
+                        <a href="economia.php" class="btn button-play">Acessar</a>
                     </div>
                 </article>
             </div>
@@ -78,3 +74,5 @@
 </body>
 
 </html>
+
+
