@@ -14,11 +14,12 @@
 <body>
     <header>
         <?php
-        include('menu.html');
+        require_once('menu.html');
+        require_once('modal.php');
         ?>
     </header>
 
-    <main class="container">
+    <main class="container mb-5">
         <div>
             <section class="title">Mas o que é a Recoleta?</section>
             <article>
@@ -46,27 +47,14 @@
                 Com isso o Recoleta viu uma oportunidade de mudar essa história utilizando o Condomínio Lavras como projeto-piloto, através da reeducação dos moradores, inicialmente com foco nas crianças, para a conscientização de que se separarem o lixo haverá melhoria na qualidade de vida deles, redução nos custos com limpeza, além da valorização de seus imóveis.
             </article>
         </div>
-
     </main>
 
     <?php
-    include('modal.html');
-    ?>
-
-    <?php
-    include('footer.html');
+    require_once('footer.html');
     ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-<<<<<<< HEAD
 
 </body>
 
 </html>
-=======
-    
-
-</body>
-
-</html>
->>>>>>> 16b716421cc7dcf1e527ca7e6f80ae7127040ee0
