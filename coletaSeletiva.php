@@ -6,28 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-<<<<<<< HEAD
     <link rel="stylesheet" href="css/components/buttons.css">
     <link rel="stylesheet" href="css/components/quemSomos.css">
-=======
-
-
-    <link rel="stylesheet" href="css/components/buttons.css">
-    <link rel="stylesheet" href="css/components/quemSomos.css">
-
->>>>>>> 16b716421cc7dcf1e527ca7e6f80ae7127040ee0
     <title>Dicas | Recoleta</title>
 </head>
 
 <body>
     <header>
         <?php
-<<<<<<< HEAD
         require_once('menu.html');
         require_once('modal.php');
-=======
-        include('menu.html');
->>>>>>> 16b716421cc7dcf1e527ca7e6f80ae7127040ee0
         ?>
     </header>
 
@@ -45,23 +33,11 @@
     </main>
 
     <?php
-<<<<<<< HEAD
     require_once('footer.html');
-=======
-    include('modal.html');
-    ?>
-
-    <?php
-    include('footer.html');
->>>>>>> 16b716421cc7dcf1e527ca7e6f80ae7127040ee0
     ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 16b716421cc7dcf1e527ca7e6f80ae7127040ee0
 </body>
 
 </html>
