@@ -12,14 +12,16 @@
   $query = "SELECT * FROM tbl_cadastro WHERE email='{$email}' AND senha=md5('{$senha}')";
   $resultado = mysqli_query($conn, $query);
   $linha = mysqli_num_rows($resultado);
+  
   if($linha == 1){
-    $_SESSION['id_usuario'] = $id_usuario;
-    $_SESSION['nome'] = $nome;
-    $_SESSION['email'] = $email;    
-    $_SESSION['telefone'] = $telefone;
-    $_SESSION['senha'] = $senha;
+    while ($row = mysqli_fetch_assoc($resultado)) {
+      $_SESSION['id_usuario'] = $row['id_usuario'];
+      $_SESSION['nome'] = $row['nome_usuario'];
+      $_SESSION['email'] = $row['email'];
+      $_SESSION['telefone'] = $row['telefone'];
+      $_SESSION['senha'] = $row['senha'];
+  }
     header('Location: jogos.php');
-    exit();
   } else {
     $_SESSION['naologado'] = true;
     echo"<script>alert('Login inválido!'); location.href='login.php'</script>";    

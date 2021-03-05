@@ -24,7 +24,7 @@ require_once('check.php');
           
     <main class="container my-5 py-5">
         <h1>Editar Perfil</h1>
-        <form action="./backend/update.php">
+        <form method="POST" action="./backend/update.php">
             <div class="card my-4">
                 <ul class="list-group list-group-flush">
 
@@ -32,7 +32,7 @@ require_once('check.php');
                     <input class="list-group-item" id="nome" name="nome" value="<?php echo $_SESSION['nome'];?> " /> 
                     <input class="list-group-item" id="email" name="email" value="<?php echo $_SESSION['email'];?> "/> 
                     <input class="list-group-item" id="telefone" name="telefone" value="<?php echo $_SESSION['telefone'];?>"/>  
-                    <input class="list-group-item" id="senha" name="senha" value="<?php echo $_SESSION['senha'];?>"/>
+                    <input type="password" class="list-group-item" id="senha" name="senha" value="<?php echo $_SESSION['senha'];?>"/>
                     
                     <button class="btn btn-primary p-1 my-1 border-none">Alterar</button>
                     <a href="./backend/delete.php" class="btn btn-primary p-1 my-1 border-none">Deletar</a>
